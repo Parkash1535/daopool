@@ -1,0 +1,613 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+@font-face {
+  font-family: interBold;
+  src: url(/assets/fonts/Inter-Bold.woff);
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* container */
+.container {
+  max-width: 1470px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Header start */
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 82px;
+}
+
+.vector {
+  display: flex;
+  margin-left: 30px;
+}
+
+.navbar {
+  display: flex;
+  margin: auto;
+}
+
+.nav_link {
+  color: #5F6C82;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+
+.mark {
+  margin: 0 30px 0 10px;
+  align-self: center;
+}
+
+.language {
+  margin-right: 25px;
+  font-family: interBold;
+
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #1C83E5;
+  color: white;
+  cursor: pointer;
+  padding: 12px 20px;
+}
+
+/* header End */
+
+/* Main */
+
+.banner_sec {
+  padding: 50px 0;
+}
+
+.banner_content {
+  display: flex;
+  align-items: center;
+}
+
+.meanuheading h2 {
+  font-family: "interBold";
+  font-size: 76px;
+}
+
+.paragraph {
+  width: 624px;
+  margin: 20px 0 20px 0;
+  color: #5F6C82;
+  font-size: 20px;
+}
+
+.meanuheading :nth-last-child(3) {
+  color: #1C83E5;
+}
+
+/* Main End */
+
+/* Frame */
+.sec_para {
+  margin: 20px 0 50px 0;
+  color: #5F6C82;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  padding: 48px 20px 40px 30px;
+  max-width: 460px;
+  width: 100%;
+  background-color: #F1F4FA;
+}
+
+.card_top {
+  margin-bottom: 46px;
+}
+
+.card_icon {
+  padding: 18px;
+  background-color: #54DAFB;
+  border-radius: 5px;
+
+}
+
+.card_num {
+  font-weight: 600;
+  font-size: 66px;
+  letter-spacing: 0.02em;
+  color: #1C83E5;
+  opacity: 0.2;
+  margin: auto 0 0 0;
+}
+
+.card_heading {
+  font-weight: 600;
+  font-size: 28px;
+  letter-spacing: 0.02em;
+  color: #06141F;
+}
+
+.card_para {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #5F6C82;
+}
+
+.card_para {
+  margin: 10px 0 0 0;
+}
+
+.icon2 {
+  background-color: #9D55FC;
+}
+
+.icon3 {
+  background-color: #FBCD55;
+}
+
+/* Fram End */
+
+/* live Start*/
+.sec_heading button {
+  border: none;
+  background-color: white;
+  color: #1C83E5;
+  cursor: pointer;
+  border-bottom: 1px solid;
+}
+
+.tab_button {
+  display: flex;
+  margin-top: 50px;
+  border-bottom: 1px solid;
+}
+
+.tab_button p {
+  margin: 0 0 0 37px;
+}
+
+.sec_card_box {
+  position: relative;
+  margin-top: 60px;
+  background-color: #F8F9FC;
+  
+}
+
+.sec_image1 {
+  border-radius: 5px;
+}
+
+.sec_image2 {
+  position: absolute;
+  top: 255px;
+  left: 50px;
+}
+
+.sec_text {
+
+  padding: 80px 32px 0px 32px;
+  width: 459px;
+}
+
+.sec_text2 {
+  padding: 10px;
+  border-bottom: 1px dashed;
+}
+
+.sec_button {
+  border: none;
+  background: #1C83E5;
+  color: white;
+  padding: 10px 10px;
+  margin: 15px 0 15px 0;
+  max-width: 393px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* live End */
+
+/* Top Artist Start */
+.top_artist {
+  margin: 100px 0;
+
+}
+
+.top_artist_card {
+  border: 1px solid rgba(95, 108, 130, 0.2);
+  border-radius: 10px;
+  max-width: 350px;
+  width: 100%;
+  padding: 39px;
+}
+
+.top_artist_name {
+  margin-top: 30px;
+
+  text-align: center;
+}
+
+.top_artist_name p {
+  padding-top: 15px;
+  color: #5F6C82;
+}
+
+.top_artist_id {
+
+  display: flex;
+  justify-content: space-evenly;
+  width: 270px;
+  padding: 33px 0 0 0;
+}
+
+.top_artist_id img {
+
+  width: 36px;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.link {
+  background-color: rgba(37, 103, 179, 0.1);
+}
+
+.twitter {
+  background-color: rgba(29, 161, 242, 0.1);
+}
+
+.instagram {
+  background-color: rgba(241, 0, 9, 0.1);
+}
+
+/* Top Artist End */
+
+/* Our Road map  Start*/
+
+.our_road_map {
+  position: relative;
+}
+
+.road_map {
+  margin-top: 80px;
+
+}
+
+.contect1 {
+
+  width: 240px;
+  position: absolute;
+ top: 500px;
+}
+
+.road_map_para {
+  padding: 10px 0;
+  color: #5F6C82;
+  font-size: 14px;
+}
+
+.contect2 {
+
+  width: 240px;
+  position: absolute;
+  left: 440px;
+  top: 590px;
+}
+
+.contect3 {
+
+  width: 240px;
+  position: absolute;
+  top: 500px;
+  right: 400px;
+}
+
+.contect4 {
+  max-width: 240px;
+  width: 100%;
+  position: absolute;
+  top: 590px;
+  right: 30px;
+}
+
+/* Our Road Map End */
+
+/*Choose Start */
+
+.choose {
+  margin-top: 200px;
+
+  position: relative;
+}
+
+.choose_heading {
+  max-width: 450px;
+  width: 100%;
+  margin-top: 90px;
+  font-size: 22px;
+}
+
+.choose_heading p {
+  padding: 70px 0;
+  color: #5F6C82;
+}
+
+.choose_box {
+  border-radius: 10px;
+  width: 370px;
+  height: 100px;
+  background-color: white;
+  padding: 13px 0 0 10px;
+  display: flex;
+  position: absolute;
+  right: 320px;
+  top: 32px;
+}
+
+.choose_icon_image {
+  border-radius: 50px;
+  padding: 18px 20px 17px 22px;
+  ;
+  width: 85px;
+  height: 79px;
+  background: #6CEDC4;
+}
+
+.choose_box_text {
+  padding-left: 40px;
+}
+
+.choose_box_text p {
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+.choose_box2 {
+  border-radius: 10px;
+  width: 370px;
+  height: 100px;
+  background-color: white;
+  padding: 13px 0 0 10px;
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 223px;
+}
+
+.choose_icon_image2 {
+  border-radius: 50px;
+  padding: 15px 15px 17px 17px;
+  ;
+  width: 85px;
+  height: 79px;
+  background: #7288FF;
+}
+
+.choose_box3 {
+  border-radius: 10px;
+  width: 370px;
+  height: 100px;
+  background-color: white;
+  padding: 13px 0 0 10px;
+  display: flex;
+  position: absolute;
+  right: 320px;
+  bottom: 40px;
+}
+
+.choose_icon_image3 {
+  border-radius: 50px;
+  padding: 18px 20px 17px 22px;
+  ;
+  width: 85px;
+  height: 79px;
+  background: #FCA61F;
+}
+
+/* Choose End */
+
+/* FAQ Start */
+
+.box_text {
+  max-width: 450px;
+  width: 100%;
+  margin-top: 90px;
+  font-size: 22px;
+}
+
+.box_text p {
+  padding: 30px 0;
+  color: #5F6C82;
+}
+
+.quation_box {
+
+
+  margin-top: 90px;
+  max-width: 650px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.box_no_1 {
+  border: 1px solid rgba(95, 108, 130, 0.2);
+  padding: 12px;
+  font-size: 16px;
+  color: #5F6C82;
+  margin-bottom: 20px;
+}
+
+.box_no_1 img {
+  float: right;
+  margin-top: 9px;
+  opacity: 0.6;
+}
+
+.box_no_2 {
+  border: 1px solid rgba(95, 108, 130, 0.2);
+  margin: 20px 0;
+  padding: 12px;
+}
+
+.box_no_2 p {
+  margin-top: revert;
+  color: #5F6C82;
+}
+
+.box_no_2 img {
+  float: right;
+}
+
+/* FAQ End */
+
+.investor_icon1 {
+  border: 1px solid rgba(95, 108, 130, 0.2);
+  border-radius: 5px;
+  width: 214px;
+  height: 140px;
+  padding: 4px 40px;
+}
+
+.investor_icon3 {
+  padding: 30px 65px;
+}
+
+.investor_icon4 {
+  padding: 36px 70px;
+}
+
+.investor_icon5 {
+  padding: 30px 40px;
+}
+
+/* FAQ End */
+
+/* Footer Start */
+.footer {
+  background-color: #eee;
+  margin-top: 140px;
+}
+
+.footer_header {
+  position: relative;
+
+}
+
+.footer_logo_img {
+  margin-top: 40px;
+
+}
+
+.footer_horizontal_line {
+  border-bottom: 1px solid rgba(95, 108, 130, 0.2);
+  margin-top: 60px;
+}
+
+.footer_header_box {
+  border: 1px solid rgba(95, 108, 130, 0.2);
+  border-radius: 5px;
+  padding: 5px 25px;
+  height: 53px;
+  max-width: 200px;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  right: 250px;
+  top: 42px;
+}
+
+.footer_header_box_text {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.footer_header_box2 {
+  right: 0px;
+  top: 42px;
+}
+
+.footer_link_box {
+  margin-top: 40px;
+}
+
+.footer_link_box li {
+  list-style: none;
+  padding-top: 20px;
+}
+
+.footer_link_box a {
+  text-decoration: none;
+  color: #5F6C82;
+  padding-top: 20px;
+}
+
+.footer_input_box {
+  background-color: white;
+  padding: 10px;
+  max-width: 324px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.footer_email_input {
+  border: none;
+}
+
+.footer_last {
+  padding-bottom: 20px;
+}
+
+.footer_copyright {
+  margin-top: 40px;
+  color: #5F6C82;
+}
+
+.footer_last_app {
+  width: 270px;
+  padding: 33px 0 0 0;
+}
+
+.footer_last_app img {
+  max-width: 40px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: rgba(37, 103, 179, 0.1);
+}
